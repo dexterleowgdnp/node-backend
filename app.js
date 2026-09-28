@@ -16,6 +16,7 @@ if (process.env.NODE_ENV !== 'test') {
 module.exports = app;
 
 
+
 // Configure the database connection pool
 const pool = new Pool({
     user: 'postgres', // Your PostgreSQL username
